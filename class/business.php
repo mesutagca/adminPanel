@@ -5,6 +5,6 @@ class business
 {
 public function getir()
 {
-    echo "deneme son push ggg   "     ;
+    echo "deneme son push gg "     ;
 }
 }
