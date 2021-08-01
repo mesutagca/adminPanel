@@ -5,6 +5,6 @@ class business
 {
 public function getir()
 {
-    echo "deneme sonjjjjj kkkpush ggdfsdfsfsffsdfdsfsfh"     ;
+    echo "dşşeneme sonjjjjj kkkpush ggdfsdfsfsffsdfdsfsfh"     ;
 }
 }
