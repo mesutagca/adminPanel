@@ -25,14 +25,17 @@ if(!empty($_GET["tablo"]))
     </div>
     <!-- /.content-header -->
 
-    <section class="content">
+
+        <!-- /.card-header -->
+        <section class="content">
       <div class="container-fluid">
       <div class="row">
       <div class="col-md-12">
        <a href="<?=SITE?>ekle/<?=$kontrol[0]["tablo"]?>" class="btn btn-success" style="float:right; margin-bottom:10px;"><i class="fa fa-plus"></i> YENİ EKLE</a>
        </div>
        </div>
-       <div class="card">
+
+          <div class="card">
             <!-- /.card-header -->
             <div class="card-body">
               <table id="example1" class="table table-bordered table-striped">
@@ -65,7 +68,7 @@ if(!empty($_GET["tablo"]))
                           </td>
                           <td>
                           <div class="custom-control custom-switch custom-switch-off-danger custom-switch-on-success">
-                      <input type="checkbox" class="custom-control-input aktifpasif<?=$veriler[$i]["ID"]?>" id="customSwitch3<?=$veriler[$i]["ID"]?>"<?=$aktifpasif?> value="<?=$veriler[$i]["ID"]?>" onclick="aktifpasif(<?=$veriler[$i]["ID"]?>,'<?=$kontrol[0]["tablo"]?>');">
+                      <input type="checkbox" class="custom-control-input aktifpasif<?=$veriler[$i]["ID"]?>" id="customSwitch3<?=$veriler[$i]["ID"]?>"  <?=$aktifpasif?> value="<?=$veriler[$i]["ID"]?>" onclick="aktifpasif(<?=$veriler[$i]["ID"]?>,'<?=$kontrol[0]["tablo"]?>');">
                       <label class="custom-control-label" for="customSwitch3<?=$veriler[$i]["ID"]?>"></label>
                     </div>
                           </td>
