@@ -43,7 +43,7 @@ if(!empty($_SESSION["ID"]) && !empty($_SESSION["adsoyad"]) && !empty($_SESSION["
   <div class="login-logo">
     <a href="<?=SITE?>"><b>Yönetim</b>Girişi</a>
   </div>
-  <!-- /.login-logo -->
+     <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
       <p class="login-box-msg">Giriş için bilğilerinizi giriniz</p>
